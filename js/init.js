@@ -152,9 +152,9 @@
       Email.send({
             // SecureToken:"8b9db560-e763-4c1b-a09f-f5a5dbd21b49",
             Host : "smtp.elasticemail.com",
-            Username : "jaysanodiyaport@gmail.com",
+            Username : "sanodiyapriyanka68@gmail.com",
             Password : "B50C78FA8A92317056D3988C45CE1E778BE2",
-            To: 'jay.sanodiya09@gmail.com',
+            To: 'sanodiyapriyanka68@gmail.com',
             From: contactEmail,
             Subject: "New message on Portfolio "+contactName,
             Body: data

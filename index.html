@@ -1,429 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="" />
-    <title>Portfolio | Priyanka Sanodiya</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="image/x-icon" href="./image/logo.jpg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav>
-      <div>
-        <h1><a href="./index.html">PRIYANKA SANODIYA</a></h1>
-      </div>
-      <div>
-        <ul id="nav-menu" class="links">
-          <li>
-            <a class="nav-link home" href="#home">HOME</a>
-          </li>
-          <li>
-            <a class="nav-link about" href="#about">ABOUT</a>
-          </li>
-          <li>
-            <a class="nav-link skills" href="#skills">SKILLS</a>
-          </li>
-          <li>
-            <a class="nav-link projects" href="#projects">PROJECTS</a>
-          </li>
-          <li>
-            <a class="nav-link git" href="#gstats">GITHUB</a>
-          </li>
-          <li>
-            <a class="nav-link contact" href="#contact">CONTACT</a>
-          </li>
-          <li>
-            <button
-              onclick="resume()"
-              id="resume-button-1"
-              class="nav-link resume"
-            >
-              <a
-                id="resume-link-1"
-                href="./Resume/Priyanka-Sanodiya-Resume.pdf"
-                download="Priyanka_Sanodiya_Resume.pdf"
-                target="_blank"
-                >RESUME</a
-              >
-            </button>
-          </li>
-        </ul>
-      </div>
-      <div class="barContainer">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanka - Sanodiya - Portfolio</title>
+  <meta name="title" content="Priyanka-Sanodiya" />
+  <meta name="description"
+    content="Hey Hii ! I'm Priyanka & this is my portfolio profile, if you are a recruiter looking for a passionate Backend Developer or Full Stack Developer please feel free to contact me & kindly go through my portfolio" />
 
-    <section id="home" class="home1">
-      <div>
-        <div>
-          <h2>Hello there, This is</h2>
-        </div>
-        <div>
-          <h1 id="user-detail-name">PRIYANKA SANODIYA</h1>
-        </div>
-        <div>
-          <h2>Java Backend Developer</h2>
-        </div>
-      </div>
-      <div>
-        <img src="./image/giphy.gif" alt="Error" />
-      </div>
-    </section>
-    <section id="about" class="about section about1">
-      <h1 class="title">About</h1>
-      <div>
-        <div>
-          <h3 id="user-detail-intro">
-            A self-motivated Java Backend Developer with a solid foundation in
-            developing scalable backend applications. Proficient in Java
-            programming language and able to work collaboratively with
-            cross-functional teams and deliver highquality software. Passionate
-            about staying up-to-date. And having knowledge about Java,
-            Hibernate, Spring, SpringBoot, MySQL, JavaScript, HTML and CSS.
-          </h3>
-          <div>
-            <button onclick="resume()" id="resume-button-2">
-              <a
-                id="resume-link-2"
-                href="./Resume/Priyanka-Sanodiya-Resume.pdf"
-                download="Priyanka_Sanodiya_Resume.pdf"
-                target="_blank"
-                >RESUME</a
-              >
-            </button>
-          </div>
-        </div>
-        <div>
-          <img class="home-img" src="./image/priyanka.jpg" alt="" />
-        </div>
-      </div>
-    </section>
-    <section id="skills" class="technicalSkills">
-      <h2 class="title">Skills</h2>
-      <div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/java.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/hibernatesvg.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/mysql.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/html.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/css.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/javascript.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/spring.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-        <div class="skills-card">
-          <img
-            class="skills-card-img"
-            src="./image/visual-studio-code.svg"
-            alt=""
-          />
-          <span class="skills-card-name"></span>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/github.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./image/postman.svg" alt="" />
-          <span class="skills-card-name"></span>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <div>
-        <div class="project-card">
-          <img
-            src="assets/img/p1.png"
-            alt="projects image"
-            class="projects__img"
-          />
-
-          <div class="glass">
-            <h3 class="project-title">CREDHUT</h3>
-            <div>
-              <p class="project-description">
-                CREDHUT is a user-friendly e-commerce website offering a
-                seamless shopping experience.
-              </p>
-              <!-- <div class="project-tech-stack">
-                            <img src="./image/java.svg" alt="">
-                            <img src="./image/mysql.svg" alt="">
-                            <img src="./image/hibernatesvg.svg" alt="">
-                            
-                        </div> -->
-              <div class="project-tech-stack">
-                <img src="./image/javascript.svg" alt="" style="width: 40px" />
-                <img src="./image/html.svg" alt="" style="width: 40px" />
-                <img src="./image/css.svg" alt="" style="width: 40px" />
-              </div>
-            </div>
-            <a
-              class="project-github-link"
-              href="https://github.com/priyankasanodiya14/CREDHUT.com"
-              target="_blank"
-              >Source-Code</a
-            >
-            <span> || </span>
-            <a
-              class="project-deployed-link"
-              href="https://thunderous-cendol-01bac9.netlify.app/"
-              target="_blank"
-              >Live</a
-            >
-          </div>
-        </div>
-        <div class="project-card">
-          <img
-            src="assets/img/p2.PNG"
-            alt="projects image"
-            class="projects__img"
-          />
-
-          <div class="glass">
-            <h3 class="project-title">Hola-Ex</h3>
-            <div>
-              <p class="project-description">
-                Hola-Ex is a clone of olx website where customers can buy and
-                sell products
-              </p>
-              <div class="project-tech-stack">
-                <img src="./image/javascript.svg" alt="" style="width: 40px" />
-                <img src="./image/html.svg" alt="" style="width: 40px" />
-                <img src="./image/css.svg" alt="" style="width: 40px" />
-              </div>
-            </div>
-            <a
-              class="project-github-link"
-              href="https://github.com/priyankasanodiya14/HOLA-EX"
-              target="_blank"
-              >Source-Code</a
-            >
-            <span> || </span>
-            <a
-              class="project-deployed-link"
-              href="https://verdant-valkyrie-b3f6d0.netlify.app/"
-              target="_blank"
-              >Live</a
-            >
-          </div>
-        </div>
-        <div class="project-card">
-          <img
-            src="assets/img/p3.png"
-            alt="projects image"
-            class="projects__img"
-          />
-
-          <div class="glass">
-            <h3 class="project-title">Bus Reservation Management System</h3>
-            <div>
-              <p class="project-description">
-                A bus ticket reservation system is an java application designed
-                to provide passenger for online ticket reservation.
-              </p>
-              <div class="project-tech-stack">
-                <!-- <img src="./image/javascript.svg" alt="">
-                            <img src="./image/html.svg" alt="">
-                            <img src="./image/css.svg" alt=""> -->
-                <img src="./image/java.svg" alt="" style="width: 90px" />
-              </div>
-            </div>
-            <a
-              class="project-github-link"
-              href="https://github.com/priyankasanodiya14/Bus-Ticket-Reservation-System"
-              target="_blank"
-              >Source-Code</a
-            >
-            <span> || </span>
-            <a
-              class="project-deployed-link"
-              href="https://thunderous-cendol-01bac9.netlify.app/"
-              target="_blank"
-              >Demo</a
-            >
-          </div>
-        </div>
-        <div class="project-card">
-          <img
-            src="assets/img/p4.png"
-            alt="projects image"
-            class="projects__img"
-          />
-
-          <div>
-            <h3 class="project-title">
-              Online Customer Service Support System
-            </h3>
-            <div>
-              <p class="project-description">
-                It is a console based application which is used by admin and
-                their Customer.
-              </p>
-
-              <div class="project-tech-stack">
-                <img src="./image/java.svg" alt="" style="width: 90px" />
-                <img src="./image/mysql.svg" alt="" style="width: 90px" />
-                <img
-                  src="./image/hibernatesvg.svg"
-                  alt=""
-                  style="width: 90px"
-                />
-              </div>
-            </div>
-            <a
-              class="project-github-link"
-              href="https://github.com/priyankasanodiya14/deluxe-change-1738"
-              target="_blank"
-              >Source-Code</a
-            >
-            <span> || </span>
-            <a
-              class="project-deployed-link"
-              href="https://drive.google.com/file/d/1tL2C9sAUB8FNb7jJHOgWslhILOnvG1KZ/view"
-              target="_blank"
-            >
-              Demo</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="gstats" class="github">
-      <h2 class="section_title">Github Calender</h2>
-      <div class="react-activity-calendar">
-        <div class="calendar" data-aos="fade-up" data-aos-duration="1000">
-          <!-- Loading the data -->
-        </div>
-      </div>
-      <div id="github">
-        <div>
-          <h2 class="title">Github Stats</h2>
-          <p>__Have a look of my github stats__</p>
-        </div>
-        <div>
-          <img
-            id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=priyankasanodiya14&theme=swift_border=false"
-            alt=""
-          />
-          <img
-            id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=priyankasanodiya14&theme=swift_border=false&include_all_commits=false&count_private=true&layout=compact"
-            alt=""
-          />
-          <img
-            id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=priyankasanodiya14&theme=swift_border=false&include_all_commits=false&count_private=true"
-            alt=""
-          />
-          <!-- <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=swift" alt=""> -->
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="footer">
-      <div>
-        <h1 class="title">Contact Me</h1>
-        <p>__Let's have a discussion of project__</p>
-        <div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/priyanka-s-ab4614229/"
-              target="_blank"
-              ><img src="./image/linkedin.svg" alt="Error"
-            /></a>
-            <a
-              id="contact-linkedin"
-              href="https://www.linkedin.com/in/priyanka-s-ab4614229/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </div>
-          <div>
-            <a href="https://github.com/priyankasanodiya14" target="_blank"
-              ><img src="./image/github1.svg" alt="Error"
-            /></a>
-            <a
-              id="contact-github"
-              href="https://github.com/priyankasanodiya14"
-              target="_blank"
-              >GitHub</a
-            >
-          </div>
-
-          <div>
-            <a
-              id="contact-email"
-              href="sanodiyapriyanka68@gmail.com"
-              target="_blank"
-              ><img src="./image/email.svg" alt=""
-            /></a>
-            <a
-              id="contact-email"
-              href="sanodiyapriyanka68@gmail.com"
-              target="_blank"
-              >sanodiyapriyanka68@gmail.com</a
-            >
-          </div>
-          <div>
-            <a id="contact-phone" href="tel:+919579232193" target="_blank"
-              ><img src="./image/phone.svg" alt=""
-            /></a>
-            <a id="contact-phone" href="tel:+919579232193" target="_blank"
-              >+91 9579232193</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="bottom">
-      <div>
-        <p><span>©</span> 2023 | Made By Priyanka Sanodiya</p>
-      </div>
-    </section>
-  </body>
-  <script src="./index.js"></script>
+  <!-- Github Calender -->
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-  <script src="gitCalander.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" /><!-- >
+
+  <---- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css.css">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./images/pattern-1.svg" />
+  <link rel="preload" as="image" href="./images/pattern-2.svg" />
+  <link rel="preload" as="image" href="./images/pattern-3.svg" />
+
+  <link rel="shortcut icon" href="./images/img_56497.webp" type="image/x-icon">
+</head>
+
+<body id="top">
+
+  <!-- ****************************************  ** Navbar  **  *************************************************** -->
+
+  <header class="header">
+    <a href="#" class="logo name">Priyanka Sanodiya</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav id="nav-menu">
+
+      <a class="nav-link home" href="#home">Home</a>
+      <a class="nav-link about" href="#about">About</a>
+      <a class="nav-link skills" href="#skills">Skills</a>
+      <a class="nav-link projects" href="#projects">Projects</a>
+      <a class="nav-link contact" href="#contact">Contact</a>
+
+      <li id="resume-button-1" class="nav-link resume">
+        <a href="Priyanka-Sanodiya-Resume.pdf" target="_blank" id="resume-link-1"
+          download="Priyanka-Sanodiya-Resume">Resume
+          <i class='bx bxs-download'></i></a>
+      </li>
+
+    </nav>
+  </header>
+  <!-- ****************************************  ** Navbar Ends **  *************************************************** -->
+
+
+
+  <!-- ****************************************  ** Home Section **  *************************************************** -->
+
+  <section class="home" id="home">
+
+    <div class="home-content">
+      <h3>Hello, it's Me</h3>
+
+      <h1 id="user-detail-name">Priyanka Sanodiya</h1>
+      <h3>And I'm a <br><span class="multiple-text"></span></h3>
+
+      <div class="social-media">
+        <a href="https://github.com/priyankasanodiya14"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/priyanka-s-ab4614229/"><i class='bx bxl-linkedin'></i></a>
+        <a href=""><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/the_frost_fairy/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href=""><i class='bx bxl-facebook'></i></a>
+      </div>
+
+      <li id="resume-button-2">
+        <a href="Priyanka-Sanodiya-Resume.pdf" target="_blank" id="resume-link-2" class="button"
+          download="Priyanka-Sanodiya-Resume">Resume <i class='bx bxs-download'></i></a>
+      </li>
+
+
+    </div>
+
+    <div class="home-image">
+      <img style="border-radius: 50%; max-width: 40%; margin-left: 300px;" class="home-img" src="./priyanka.jpg" alt="profile-pic" />
+
+      <img src="./images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1" />
+
+      <img src="./images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2" />
+    </div>
+
+    <img src="./images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1" />
+
+    <img src="./images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2" />
+    </div>
+  </section>
+  <!-- *****************************************  ** Home Section Ends **  ***************************************************** -->
+
+
+  <!-- ****************************************  ** About Section **  *************************************************** -->
+
+  <section id="about" class="about section">
+
+    <h2 class="heading"><i class='bx bx-user'></i>About
+      <span>Me!</span>
+      <div class="about-content">
+        <h3>I'm <span>Priyanka Sanodiya</span></h3>
+        <h3>Full Stack Web Developer</h3>
+        <p id="user-detail-intro">
+          Hey! My name is Priyanka Sanodiya and I'm a Java developer with a passion for backend end development, I am well versed in implementing various technologies like Java, SpringBoot, Spring Security, JPA, MySql. I'm currently a student at
+          <br><a href="https://www.masaischool.com/" target="_blank">Masai School</a> pursuing a degree in <a href="https://www.masaischool.com/courses/full-stack-web-dev-full-time/" target="_blank">Full stack web developer</a> with a major in interaction backend development. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
+          <br>
+          <br> When I'm not on the computer, I enjoy travelling.
+        </p>
+
+      </div>
+  </section>
+
+  <!-- *************************************  ** About Section End **  *********************************************************** -->
+
+
+  <!--------------------------------------------- skills start------------------------------------------------------------->
+  <section id="skills" class="skills">
+    <div class="container tags">
+      <h2 class="heading">Skills &
+        <span>Abilities</span>
+      </h2>
+
+      <ul class="grid-list">
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="./images/html" class="skills-card-img" width="32" height="32" loading="lazy" alt="HTML" />
+
+            <p class="skills-card-name">HTML</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="./images/css.png" class="skills-card-img" width="32" height="32" loading="lazy" alt="CSS" />
+
+            <p class="skills-card-name">CSS</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              class="skills-card-img" width="32" height="32" loading="lazy" alt="JavaScript" />
+
+            <p class="skills-card-name">JavaScript</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="./images/java.png"
+              class="skills-card-img" width="32" height="32" loading="lazy" alt="Java" />
+
+            <p class="skills-card-name">Java</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="./images/aws.jpg"
+              class="skills-card-img" width="32" height="32" loading="lazy" alt="aws" />
+
+            <p class="skills-card-name">AWS</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="./images/jquery.png"
+              class="skills-card-img" width="32" height="32" loading="lazy" alt="jQuery" />
+
+            <p class="skills-card-name">jQuery</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="./images/python.png"
+              class="skills-card-img" width="32" height="32" loading="lazy" alt="python" />
+
+            <p class="skills-card-name">Python</p>
+          </button>
+        </li>
+        <li>
+          <button class="skills-card tag-btn">
+            <img class="skills-card-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEVovUX///9mvEJhuztcuTJkvD9eujZZuC5fujhiuz38/vv0+vJauDDm8+F3w1ng8Nrs9ujV682Iym+m1pV+xmKr2JuSzny84LDT6sud0orN6MTD47i03Ka43qqi1JBsv0qY0IRwwFCOzHeVz4Dw+O2Bx2bj8t3G5L1UtiSw26FkngtdAAAOzklEQVR4nOWd6ZakqhJGFQFR0VRzqpynyrLz/V/wqjmXCIFTUvd86/w6vbrLXUBEEASBZfctPwiT1WY63qeTKDrsrN3uEE3S03Y6XyajoPcfb1t9/uPhcj2LLIwpczxCEELWTQgR4jmMYrqbnNbZT58f0RdhnG0jF1OHPKjEylkdhvlkm8U9fUkfhPFqZmHmKdjeQT2GreM87OFruib0vxYHl6lGTkxJGEeLxO/4izolDLIZo1pjVx1Lyo5Zp/anQ8LlEVPSgu6ufCjTrLuR7IpwtGCd4N0gKV2MOvqybghXEfc6w7tB8mjVyUB2QBhvMWuz9uqEGN924EJaE/4ccdfD95SHZ62jgZaEo9TtbvWJRNy05YJsRfiT8n75SkZ+bsXYgjA89jx+D0Y3bRHsNCYMFgOM34ORLxpHAU0J505/9kUkj80HJRwd6KB8hVjUzKw2IlzwPvyfSohvByJMiPMBvkIOSQYg9PcfGcCrEN9rR3K6hCPrUwN4lWPpOkdNwukHB/AqxKc9EgYT9mG+QnSi5Rt1CBNnOB8vE/F0DI4G4cb99Ay9C7mbPghn+NNgL8KzzgmD6LM29Le8CLoYgYShIUvwKeIAgzgYYYJNWYJPIQyzNyDCzP00jlBu1hXh3EzAHBGyowIQbkwFtCx+6YJwzT/NIRFetyc0GjAfRSWiinBjNmCOqApvFIQrc9fgXVxhbuSEhrqJdymchpQw+QuA+ShKXb+M8MekWFsmKksYSwgDx7xQTSxEJGG4hDAyLdiuF4maEB7N2i7J5Rz1CdfDZ7XbiNZ6/jrCP2JGn3LrDGoNYdCqZuQTQl6NtakhnPwdK3MXmegQTv/WIryKilPFQsKR6eG2WOLYRkToW39tEV6FkOjYRkS4/0ue8FXeCUb49TfnaCG+hBD6xjsKVPuBiFTnaZVwYfocRdZX7RGYs1ATmm9H+dKvP+TjlQPUCmFk+hwlaR6Q1M/Tyi7jN+HceF9P8+jsUr+SKnU3vwgDEw55pSrNZSIZB8eXEm6HrXTSFytNiS/Z+XgLGWFsupm5h9f1CzEf5VhCODN8S4HQbYs0lcw1MqsnDA3f9qJHUu1LZhDdn1rC1PAhxA9nF8gIC38iJhwZnh91v57fepC57Te3/0p4NnoI0VsmRmr0yVlM+GP0KkT0LR7LpI77dSW+EB5NHkJC3jP3odSvkZOIMDZ5FTqV8hn5Dgh/CwhNDmcEJVByu++Nq4S+uUOIROe8kuC7EPcrhCtjY26PiIpml/LvZasKobH7Qj4TFj5/y7d5z33indDUrT3hKxFfLsWI8J9fhAsj7QzCae3ZpyLEfGyi7oRGrkKGBNnBuxSmxmLvhEsDkxceldZ0qT6ZLt8IzdsYKi9zhQr3dt8mXgkD05whcY/KC7KqaYeDF0LDJqlDT4ALwCr/dpumlnGTFFE2/ZaR3XVSfPRtmpaEkhzy0PL4BFT5m2ujOn645hVLQmnWYzghDztj+H1Y5dKiyYPQBHePHGwttC7fqYzpzemXhLvPxqSIOBRHF91LadJsVPnvHu6E8cfSF4h4jHLreEmaXGRWmkc3vhF2vnEqPxxT5l371JQ9kzzHYZRijjGmuFD+x1aUjlcJyHCKJEt8lyq3UAVhl74CEYZxdJquluF38LLt8X0/CL7jOA5/RqPRTxjHb3/cSHvVd5f+oiDsrPSitBarXvtavWqqchfIuhJ2lYIi+KBtLVpJnlEshOOSsJOQDTFnPyieLT9FvKoI3HLCcXtviJjVTbscLSkdYplyswAmSSmGmrZ0aKVAmXlB55KwrTckgKs5vchXTz5eEMrz42rx2QDND8WSHkBdPy7OCduF3YR9qb+kL6nXF/3KCddtaqDYebgBrO46UiWhs84JVRtJmfhY8CU9SRC6qoMxcsoJWyS7YddUO5KgdYv6MAlFOWFjvl9nlj0rETgkWUXGXbbVPM1WLZLrU6L79wATggNLHRgYAbgUVeLPAYShpQ7uxHIlCfceRERLfq7e2NLEUgfoQuFh47QNF4W9gK07yyxlTk4oZz8oYOAKm2ABRsfZWJcmO4tqnWq/Ov4T5sABhN7F2jZx+G5fjZvFytxU+P8BO1uytZTJDoHYsJuJwKlp8gEh3Fvq2K6ioedo6tT8QEW1QvmtqdVg/yu/O9255hjXeCbAOkQTSz8sJeJF0ZfCf7VzBuAtUGQddAGfVQ6DyN8hXrcFBXh8qwHhwEN4Jm+1lG+C+PKDtdMlxIPGo1smmTOqcoxC2nwDG9I5r9wueBGs2FCXsXEv2CYqLgrS+kQs5MBlp01IB8ysFYXnWJJHOAP8wE7X0tQv++4VUiS3axBPd9AlHHCSxsVVT1dyuuhDXHmkG9PwwWLuuGitgusqEwups/plTKMXl6LdoIBy3wvpn5PHpXrpUiK6Ld2HwgKwthPEVZBsPTlp7g8djcahbTQq35NQhPiQkCbfH0Jyjk/RYU4psrJdcU0biIcgW1tvqpmnwYMYmmuTOE8VAKuPnso8jV6uTRJgdKdxCYh2ip/lQ/KgbKmZL/X65/PT6++cqaYLqBUZS/Ry3tc6ql4VH66G4Z8ykQAqdMKh3rlF/xuL5a3hdO0lhKdAOTQcWKDQ50FY08enM21vYQoGNF6HGBrL8vXOD3smjKPbxKOAdx5A987L80OdqrZ+Z+nq/uoXhZwZgJwAmWme4/cZlgbH+6AwUGgIGpnyHB+QVn2KqX9yQy0fHcMpCNAHDQxdFvU0Osa0L4//HEDYFIUUtRXiYVETpVMxhPt4ZdK21/gx5TDwMRnYeQvXrmujfZz8JofnQgG/zwGapIXtt/QuADuABtqaitOXd0/UrZ1vykCT1NuWhDqxd+cJb3+MX6abq45kboKk2Yozbv0aYdapqfEv9GW2IQY+1AKax1uNsFadN+3wZM3fkNfp4xzgVfuwOzD3Om+tqEaSY9dUMHXelgfXSAFBsmzWS62+1n0Lr5tpGi7omzVEWuUrY1gc9rhvodU7iXZRrZed3fdp5hx0HC20Xxe/35nRuvfUfhM82jr0/QcirleeAxzCaxStf3etndMPL4fKw7qeo5fBC4CV6S9317QKoZvvL/xkjHilDbr+a3FQy3hNfZaEyntub2KaD59dFc5TT/Rmt4N0U7AJ1Gyw5x1SzRZYtY2la/SdrI+MM9HPIK5+HTXUfZNrF/Mrod79PGkb+3cFyWZ2oLTmtSjEU/0MM7j7KMteCDULhUmkXjl+vFzPdm4OV/crRzRqcEawBLu2t/v4up3aiOxNMD/8Wu8PDpbAlXy7Jp71Gzzb3nsqADcjL3/dEnhoP/6ab9MD5nK2kg8fmkUO8Acb2HtfDNAZwNsnvuzkfD9MVuPj7uVirFyEnxueYZ3gabN7wuXRnwb0u3ntUcwm9neYzKfHiZWPGgyt/Dcc99S0bmwMH4hKfxpAR0GHO4cdw4/fInJ5Pmj5hNTJmhMcbRrXq1w0DGKlx5Ay9e2QdZiPuz9ak8ZXvz3KFi1qxnQAq32iVC7xNQV2aXKfD3mYLFqdII+1chGPzRiwX9v7s1HadzQIw9a2ZXZgpjV1cLVfm/Q68O9QVOcFE+JgnG7a5lnvx4pAiXru2XH9wFQPZIA7tJyOpOtR+7TAXPMRTWHfRMmmBFfWT6AkRF4ebB83HdDlgUyqG5AIe1/WdxEW7QilSXXkURwtso5OAPw1170x4b786NcetHXBKRHkGGpNL3KoG42/uqvRnCNt7/SWt37rI1zjBUT1iMIIIadj50vSYdI4uFCmf10C1/URrhtEJsi1V5POuUeYdEqXm+w9a3LvrL4XdN1KFBWz/RpDxOgx67R6uEjq4GaXsCX9vGtaCYsKEt+Oc/JgM7sOnh+Ho1GSq2hCEzdGHm1SDzd9K0XWk70uN4yq3/BiSwk/hfb3cn1KdzgPxjG9CmPOXWpF5+N+fJlnyyT8VhP7cTLfnjFu80i2tK++vRXO+2qK9Jl1RmwWJnuryMWINhmobKHksKKDUpGuic6z7XQ9z76S0U8YxnH8HYfhzyj5yjbj/SSPzfN9WLtOJM6vQ+Tf71sICat57kd7H3TYTB0K3RuWwN4VuOgWxXnxXznszPH09mG1hL9mCuyNkt9x6ehhkqKjZ0CztxfR34a/8s6MuJbqvaI8fhkzw9oPq9+ZqXP7rx0wTHxL/q7qJSnwe0/sML86hORoWrPTF0Hee7L9GrOBmBvNjhNMWxjyvoUEfk3r3bXc8Js7PwuJivv/v97OEx20Cl94NM1AAiV6V66GEHxCZ5bgb1ja9tictrtw1bT//q++JfsH3wO2WE1F1X/2TeeiqPXT36wl/Xe5bXv2l7yiU32IRk2ocdz6cRHJLQkJYWB4iPaUtDhEQqhXxf9JUVl2XUb4VwyqvIJJSmiv/gKiojhcTlh03jBdXFF6qyC016Yjit7z0iI0HVF9QUNJ2KwuYSgBbqCoCU0eRRdQ/g4gtOemWlRQD1wIoZ0ZiYg4qOIcRGgn1LwADjFYeRWM0A6JaWE4sYDlxUBCO4jM2kw5gDJlPcJ8v2jGk0lXYfglKTihfXFNWYzI1WiTo0FoJ54Zi5E4OkWAOoR2MDFhptKJVgWEFqFtT/mnZyrimleRNQnthHz2UNtDukXGuoS2P/vgMOrfAmtAaNtL8inXqHuNrymhbS8+MoyIn5pUzTUitEeH4Y0qjZqV+TcjLJ4lGNbiOB64GUFHhHaw0K7cbS6Cx43LOhsT5vuN1B2Gkbizxi8ItiLMl2M6wDgSfG7Vm7kVYcHY8zgSN23Ze7olYT5XT7Q/9+jRWeuC/9aEtv09xQ2qzdVCDI9brL8OCXNlUaWNQFt5fNLNg4PdEOYLcsE6LHgj1Nl21ZGqK8Jcy2M3VX2EsVOHjWA7JMyjgGzGRH0T4EIedWbLTi9tdEqYy/9aHFzW6HwcEcbRots7KXb3hIXi1czCeiX3yGPYOs776AbXB2GhONtGrqLpwG3kHIb5ZJv11aG4L8JS4XI9iyyMWXHVgKDnZYP7JQyMyeF4yXp99KRXwlJ+ECbZZjrep5MoOuys3e4QTdLTdjpfJmHrl6vV+h+X29ptgZQNZwAAAABJRU5ErkJggg==" width="32" height="32" loading="lazy" />
+
+            <p class="skills-card-name">Spring</p>
+          </button>
+        </li>
+        <li>
+          <button class="skills-card tag-btn">
+            <img class="skills-card-img"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="32" height="32"
+              loading="lazy" />
+
+            <p class="skills-card-name">MySQL</p>
+          </button>
+        </li>
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="https://image.shutterstock.com/image-photo/image-260nw-2176363543.jpg" class="skills-card-img" width="32" height="32" loading="lazy" alt="GIT" />
+
+            <p class="skills-card-name">SpringBoot</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="32" height="32"
+              loading="lazy" class="skills-card-img" />
+
+            <p class="skills-card-name">GIT</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img class="skills-card-img" src="https://cdn-icons-png.flaticon.com/512/28/28968.png" width="32" height="32" loading="lazy" alt="NPM" />
+
+            <p class="skills-card-name">JSP</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img class="skills-card-img"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="32" height="32"
+              loading="lazy" />
+
+            <p class="skills-card-name">VSCode</p>
+          </button>
+        </li>
+
+        <li>
+          <button class="skills-card tag-btn">
+            <img class="skills-card-img"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="32"
+              height="32" loading="lazy" />
+
+            <p class="skills-card-name">Bootstrap </p>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills-container">
+      <div class="skills-card-1">
+        <i class='bx bx-code-alt' class="skills-card-img"></i>
+        <h3 class="skills-card-name">Front-End Development</h3>
+        <p>HTML | CSS | JavaScript</p>
+        <a href="#" class="button">Read More</a>
+      </div>
+      <div class="skills-card-1">
+        <i class='bx bxs-data' class="skills-card-img"></i>
+        <h3 class="skills-card-name">Back-End Development</h3>
+        <p>Java | SpringBoot | MySQL </p>
+        <a href="#" class="button">Read More</a>
+      </div>
+      <div class="skills-card-1">
+        <i class='bx bxl-codepen' class="skills-card-img"></i>
+        <h3 class="skills-card-name">Data Structure Algorithm</h3>
+        <p> Array | Recursion | LinkedList </p>
+        <a href="#" class="button">Read More</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!--------------------------------------------- skills ends ---------------------------------------------------------------->
+
+
+
+  <!-------------------------------------------- Project Starts--------------------------------------------------------------->
+
+  <section id="projects">
+    <div class="heading" style="margin-bottom: 30px;">
+      <h2>Projects</h2>
+      <span>My projects</span>
+    </div>
+
+    <div id="projects2">
+
+      <!-- 1st Project  -->
+
+      <div class="project-card">
+        <!-- Carousal -->
+        <div class="slider2">
+          <div class="list2">
+            <div class="item2">
+              <img class="projectImages" src="Credhut.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="project-details">
+          <div>
+            <h1 class="project-title white">Credhut&nbsp; </h1>
+            <p class="project-description green poppins">
+            This project is a clone of fingerhut.com an ecommerce, it is made with JavaScript, HTML and CSS.
+            </p>
+
+          </div>
+          <div>
+            <h2 class="white">Teck Stacks :</h2>
+            <div class="project-tech-stack">
+              <div>
+                <!-- HTML  -->
+                <img src="html.svg" alt="" />
+              </div>
+              <div>
+                <!-- CSS  -->
+                <img src="css.svg" alt="" />
+              </div>
+              <div>
+                <!-- JS  -->
+                <img src="javascript.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="project-btn-div">
+            <a target="_blank" href="https://github.com/priyankasanodiya14/CREDHUT.com"
+              class="project-github-link btn2">
+              CodeBase>
+            </a>
+            <a target="_blank" href="https://thunderous-cendol-01bac9.netlify.app/"
+              class="project-github-link project-deployed-link btn2">Live</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 2nd Project  -->
+
+      <div class="project-card">
+        <!-- Carousal -->
+        <div class="slider2">
+          <div class="list2">
+            <div class="item2">
+              <img class="projectImages" src="holaex.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="project-details">
+          <div>
+            <h1 class="project-title white">1 Mg Clone&nbsp; </h1>
+            <p class="project-description green poppins">
+              
+The HOLA-EX marketplace is a platform for buying and selling pre-used goods and services such as renting or buying a flat and selling cars, bikes, furniture and electronic items.
+            </p>
+
+          </div>
+          <div>
+            <h2 class="white">Teck Stacks :</h2>
+            <div class="project-tech-stack">
+              <div>
+                <!-- HTML  -->
+                <img src="html.svg" alt="" />
+              </div>
+              <div>
+                <!-- CSS  -->
+                <img src="css.svg" alt="" />
+              </div>
+              <div>
+                <!-- JS  -->
+                <img src="javascript.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="project-btn-div">
+            <a target="_blank" href="https://github.com/priyankasanodiya14/HOLA-EX" class="project-github-link btn2">
+              CodeBase>
+            </a>
+            <a target="_blank" href="https://verdant-valkyrie-b3f6d0.netlify.app/"
+              class="project-github-link project-deployed-link btn2">Live</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3rd Project  -->
+
+      <div class="project-card">
+        <!-- Carousal -->
+        <div class="slider2">
+          <div class="list2">
+            <div class="item2">
+              <img class="a projectImages"  src="bus.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="project-details">
+          <div>
+            <h1 class="project-title white">Bus Ticket Reservation System&nbsp; </h1>
+            <p class="project-description green poppins">A bus ticket reservation system is a java program designed to provide customers with a personalized easy-to-utilize user experience for booking and purchasing tickets online.
+            </p>
+
+          </div>
+          <div>
+            <h2 class="white">Teck Stacks :</h2>
+            <div class="project-tech-stack">
+              <div>
+                <!-- JAVA  -->
+                <img src="java.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="project-btn-div">
+            <a target="_blank" href="https://github.com/priyankasanodiya14/Bus-Ticket-Reservation-System"
+              class="project-github-link btn2">
+              CodeBase>
+            </a>
+            <a target="_blank" href="https://github.com/priyankasanodiya14/Bus-Ticket-Reservation-System"
+              class="project-github-link project-deployed-link btn2">Live</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 4th Project  -->
+
+      <div class="project-card">
+        <!-- Carousal -->
+        <div class="slider2">
+          <div class="list2">
+            <div class="item2">
+              <img class="projectImages" src="Customer.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div class="project-details">
+          <div>
+            <h1 class="project-title white">Online Customer Service Support&nbsp; </h1>
+            <p class="project-description green poppins">This project is an online customer service center built with Spring Boot.
+               It provides a platform for customers to submit requests, complaints, and inquiries which can be resolved by our dedicated support team. 
+             
+            </p>
+
+          </div>
+          <div>
+            <h2 class="white">Teck Stacks :</h2>
+            <div class="project-tech-stack">
+              <div>
+                <!-- JAVA  -->
+                <img src="java.svg" alt="" />
+              </div>
+              <div>
+                <!-- HIBERNATE  -->
+                <img src="hibernate.svg" alt="" />
+              </div>
+              <div>
+                <!-- SQL  -->
+                <img src="sql.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="project-btn-div">
+            <a target="_blank" href="https://github.com/priyankasanodiya14/deluxe-change-1738"
+              class="project-github-link btn2">
+              CodeBase>
+            </a>
+            <a target="_blank" href="https://drive.google.com/file/d/1tL2C9sAUB8FNb7jJHOgWslhILOnvG1KZ/view"
+              class="project-github-link project-deployed-link btn2">Live</a>
+          </div>
+        </div>
+
+      </div>
+
+     
+
+    </div>
+  </section>
+
+
+  <!-------------------------------------------- Project Ends--------------------------------------------------------------->
+
+
+
+  <!-------------------------------------------- GitHub starts ------------------------------------------------------------->
+
+  <div id="github-stats">
+    <h2 class="heading">GitHub
+      <span class="span">Statistics</span>
+    </h2>
+    <div class="container">
+
+      <div>
+        <div class="react-activity-calendar calendar">
+          Loading the data just for you.
+        </div>
+        <br />
+        <div class="stats">
+          <a href="https://github.com/priyankasanodiya14">
+            <img id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=priyankasanodiya14&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
+              alt="" />
+            <br />
+            <br />
+
+            <img id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=priyankasanodiya14&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" />
+
+            <br />
+            <br />
+
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs?username=priyankasanodiya14&show_icons=true&locale=en&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
+              id="github-top-langs" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------------------------------- GitHub ends ----------------------------------------------------------------->
+
+  <!--------------------------------------------  Contacts Starts --------------------------------------------------------------->
+
+ 
+  <div id="contact">
+    <h2 class="heading">Contact
+      <span>Me</span>
+    </h2>
+    <div class="contact_me">
+      <p id="contact-phone">Contact Number - +91 9579232193</p>
+      <p>
+      <p id="contact-email"> <a href="mailto:sanodiyapriyanka68@gmail.com"></a>
+        Email Address-sanodiyapriyanka68@gmail.com
+      </p>
+      </p>
+      <p>Address- Nagpur, Maharashtra-440026</p>
+
+      <div>
+        <a class="project-link linkdk" id="contact-linkedin" target="_blank"
+          href="https://www.linkedin.com/in/priyanka-s-ab4614229/"><i style="font-size: 40px" class='bx bxl-linkedin'
+            aria-hidden="true"></i></a>
+
+        <a class="project-link linkd" id="contact-github" target="_blank"
+          href="https://github.com/priyankasanodiya14"><i style="font-size: 40px" class='bx bxl-github'
+            aria-hidden="true"></i></a>
+
+        <a class="project-link linkd" href="mailto:sanodiyapriyanka68@gmail.com" target="_blank"><i
+            style="font-size: 40px" class='bx bx-envelope' aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--------------------------------------------  Contacts Ends --------------------------------------------------------------->
+
+
+  <!-- ------------------------------------------  Footer Starts- ---------------------------------------------------------- -->
+
+
+  <footer class="footer">
+    <div class="footer-text">
+
+      <p> Copyright &copy; 2023 by Priyanka All right Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!-- ------------------------------------------  Footer Ends ------------------------------------------------------------- -->
+
+
+  <!-- scrollreveal -->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed js -->
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+
+
+</body>
+
 </html>
